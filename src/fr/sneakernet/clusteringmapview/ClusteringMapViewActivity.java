@@ -36,7 +36,7 @@ public class ClusteringMapViewActivity extends MapActivity
     private List<MyObject> populateList()
     {
     	List<MyObject> list = new ArrayList<MyObject> ();
-    	for (int i=0 ; i<50 ; i++)
+    	for (int i=0 ; i<5000 ; i++)
     	{
     		int line = i/10;
     		int column = i%10;
